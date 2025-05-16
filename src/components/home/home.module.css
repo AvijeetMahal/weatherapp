@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6519e0, #c305dc);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .weatherApp {
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .button {
+   width: 150px;
+   height: 38px;
+    background-color:  #0080ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card {
+    background:linear-gradient(to bottom right, #7dbefc, #b967db);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cityName {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .condition {
+    text-transform: capitalize;
+  }
+  
+  .range {
+    margin: 10px 0;
+  }
+  
+  .iconContainer img {
+    width: 100px;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .forecast div {
+    text-align: center;
+  }
+
+  .defaultBackground {
+    background: transparent;
+  }
+  
+  .clear {
+    background: url("https://images.unsplash.com/photo-1691848746401-b40fdd5d823f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .cloudy {
+    background: url("https://images.unsplash.com/photo-1708552592233-5934a64eaec0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .rainy {
+    background: url("https://images.unsplash.com/photo-1535248212820-94e9e155d6d3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .snowy {
+    background: url("https://images.unsplash.com/photo-1501621665255-6bc2dc9c0f6e?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .thunderstorm {
+    background: url("https://images.unsplash.com/photo-1561553543-e4c7b608b98d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .misty {
+    background: url("https://images.unsplash.com/photo-1724600457405-a7eeabcff6b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size: cover;
+    background-position: center;
+  }
+  .haze {
+    background: url("https://images.unsplash.com/photo-1604424288891-7f0871867e09?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }  
+
+  
